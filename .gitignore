@@ -45,3 +45,5 @@ StartappDroid/obj/
 StartappDroid/bin/
 StartappiOS/obj/
 StartappiOS/bin
+
+StartappDroid/Resources/Resource.designer.cs
