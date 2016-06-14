@@ -40,3 +40,11 @@ obj/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+StartappDroid/obj/Debug/android/assets/machine.config
+
+*.class
+
+*.class
+
+StartappDroid/obj/Debug/android/bin/classes/com/xamarin/samples/taskyandroid/R.class
