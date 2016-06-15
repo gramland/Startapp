@@ -1,6 +1,10 @@
-﻿<Properties StartupItem="TaskyiOS/TaskyiOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.3" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupItem="StartappDroid/StartappDroid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartappDroid/HomeScreen.cs">
+    <Files>
+      <File FileName="StartappDroid/HomeScreen.cs" Line="6" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

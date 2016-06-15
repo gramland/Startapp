@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{08FAE550-E302-4022-A871-17E0462E99F3}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
@@ -102,8 +100,7 @@
     <BundleResource Include="Resources\Icon%402x.png" />
     <BundleResource Include="Resources\Icon%403x.png" />
   </ItemGroup>
-  <Import Project="..\TaskySharedCode\TaskySharedCode.projitems" Label="Shared" Condition="Exists('..\TaskySharedCode\TaskySharedCode.projitems')" />
-  <Import Project="..\StatappSharedCode\TaskySharedCode.projitems" Label="Shared" />
+  <Import Project="..\StartappSharedCode\TaskySharedCode.projitems" Label="Shared" Condition="Exists('..\StartappSharedCode\TaskySharedCode.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
